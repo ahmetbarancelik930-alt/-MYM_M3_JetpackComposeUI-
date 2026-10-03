@@ -33,7 +33,7 @@ import androidx.compose.ui.Alignment
 
 
 @Composable
-fun Sifremiunuttumekrani() {
+fun KullaniciKayitEkrani() {
     var adSoyad by rememberSaveable() { mutableStateOf("") }
     var eposta by rememberSaveable() { mutableStateOf("") }
     var sifre by rememberSaveable() { mutableStateOf("") }
